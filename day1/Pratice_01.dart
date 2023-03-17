@@ -38,7 +38,9 @@ void main()
   print("enter the second value"); 
   value2 = int.parse(stdin.readLineSync()!);
 
-  print(value1 <= value2);
+  var c = value1 > value2;
+
+  print("the value one is greater than to value two ${value1} > ${value2} $c");
 
   // arithmatic operator
 

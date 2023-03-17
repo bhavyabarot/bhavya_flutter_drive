@@ -12,12 +12,18 @@ var value2;
   value2 = int.parse(stdin.readLineSync()!);
   var c;
 
-  print( value1+value2);
-  print( value1 *value2);
-  print( value1*value2);
-  print( value1%value2);
-  print( value1/value2);
+ 
   c=value1+value2;
-  print("Your addtion of two numbers are $value1  +  $value2  = $c");
+  print("value1 + value2 ans = $c");
+  c= value1 - value2;
+  print("value1 - value2 ans = $c");
+  c= value1 * value2;
+  print("value1 * value2 ans = $c");
+  c= value1 / value2;
+  print("value1 / value2 ans = $c");
+  c= value1 % value2;
+  print("value1 % value2 ans = $c");
+  
+
 } 
  
