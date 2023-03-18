@@ -59,6 +59,6 @@ void main()
 
   var nam1 = "BHAVYABAROT";
   print(nam1.toLowerCase());
-  print(nam1.replaceAll('R', 'B'));
+  print(nam1.replaceAll('B','N'));
 
 }
